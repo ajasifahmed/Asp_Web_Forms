@@ -1,0 +1,121 @@
+﻿/*LOGIN SIGNUP CSS*/
+
+.S-form-control {
+    height: 41px;
+    background: #f2f2f2;
+    box-shadow: none !important;
+    border: none;
+}
+
+    .S-form-control:focus {
+        background: #e2e2e2;
+    }
+
+.S-form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.signup-form {
+    /*width: 400px;*/
+    width: auto;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 7px -1px 37px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px -1px 37px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px -1px 37px -5px rgba(0,0,0,0.75);
+}
+
+    .signup-form form {
+        color: #999;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        background: #fff;
+        /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */
+        box-shadow: 0px 1px 11px #990011FF;
+        padding: 30px;
+    }
+
+    .signup-form h2 {
+        color: #333;
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    .signup-form hr {
+        margin: 0 -30px 20px;
+    }
+
+    .signup-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .signup-form input[type="checkbox"] {
+        margin-top: 3px;
+    }
+
+    .signup-form .row div:first-child {
+        padding-right: 10px;
+    }
+
+    .signup-form .row div:last-child {
+        padding-left: 10px;
+    }
+
+    .signup-form .btn {
+        font-size: 16px;
+        font-weight: bold;
+        background: #3598dc;
+        border: none;
+        min-width: 140px;
+    }
+
+        .signup-form .btn:hover,
+        .signup-form .btn:focus {
+            /* background: #2389cd !important; */
+            outline: none;
+        }
+
+    .signup-form a {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+        .signup-form a:hover {
+            text-decoration: none;
+        }
+
+    .signup-form form a {
+        color: #3598dc;
+        text-decoration: none;
+    }
+
+        .signup-form form a:hover {
+            text-decoration: underline;
+        }
+
+    .signup-form .hint-text {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+/**/
+/**/
+.gr {
+    color: #990011FF !important;
+}
+
+.gr-b {
+    background: #990011FF !important;
+    color: #FCF6F5FF;
+}
+
+.wh {
+    color: #FCF6F5FF !important;
+}
+
+.wh-b {
+    color: #990011FF !important;
+    background: #FCF6F5FF;
+}
+
+/**/
